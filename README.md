@@ -8,8 +8,10 @@ HotKey Tab Search lets you jump between tabs with keyboard precision — and mak
 * ✅ Instant tab search with `⌥ Option + T`  
 * 📂 Tabs grouped by workspace (Docs, Dev, Media...)  
 * ↕ Navigate with arrows, `Enter` to switch, `Esc` to exit  
-* 🧠 Great for multitaskers and power users  
+* 🧠 Great for multitaskers and power users
 * ⚡ Lightweight, distraction-free, privacy-respecting
+
+https://www.loom.com/share/5ffe2fb6d5144b9390cb0fc58096609a?sid=65c23e64-c1ca-48e2-a11a-9cdf67825f2f
 
 Copy from one tab, paste into another — no mouse, no mess.
 
