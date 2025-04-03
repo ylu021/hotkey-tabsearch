@@ -11,6 +11,9 @@ HotKey Tab Search lets you jump between tabs with keyboard precision — and mak
 * 🧠 Great for multitaskers and power users
 * ⚡ Lightweight, distraction-free, privacy-respecting
 
+![tab_search_banner_1400x560](https://github.com/user-attachments/assets/5df33723-b637-4dce-a766-005eefe90e29)
+
+
 https://www.loom.com/share/5ffe2fb6d5144b9390cb0fc58096609a?sid=65c23e64-c1ca-48e2-a11a-9cdf67825f2f
 
 Copy from one tab, paste into another — no mouse, no mess.
