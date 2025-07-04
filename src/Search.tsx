@@ -54,10 +54,28 @@ function Search() {
     });
   }, []);
 
-  const filtered = !!query.trim()
-    ? tabs.filter((tab) =>
-        tab.title?.toLowerCase().includes(query.toLowerCase())
-      )
+  const normalizedQuery = query.trim().toLowerCase();
+  const filtered = normalizedQuery
+    ? tabs.filter((tab) => {
+        const title = tab.title?.toLowerCase() || "";
+        const url = tab.url?.toLowerCase() || "";
+        let hostname = "";
+        const label = domainLabels[hostname] || "";
+
+        try {
+          const parsedUrl = new URL(tab.url || "");
+          hostname = parsedUrl.hostname.replace(/^www\./, "");
+        } catch {
+          // Skip hostname if URL invalid
+        }
+
+        return (
+          title.includes(normalizedQuery) ||
+          url.includes(normalizedQuery) ||
+          hostname.includes(normalizedQuery) ||
+          label.toLowerCase().includes(normalizedQuery)
+        );
+      })
     : tabs;
 
   useEffect(() => {
